@@ -1,0 +1,15 @@
+{
+  "system_name": "Alexandria Temporal Kernel",
+  "version": "9.0.0",
+  "classification": "Canonicalization Field",
+  "time_model": "Linear and Singular",
+  "branching_allowed": false,
+  "simulation_allowed": false,
+  "state_is_primary": false,
+  "non_determinism_allowed": false,
+  "incompleteness_is_structural": true,
+  "invariants_are_conservation_laws": true,
+  "domains_are_axes": true,
+  "license": "Polyform Noncommercial 1.0.0",
+  "author": "James Earl Stambaugh III"
+}

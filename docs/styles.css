@@ -1,0 +1,18 @@
+
+body {
+    background: #0b0f14;
+    color: #e6edf3;
+    font-family: monospace;
+    padding: 40px;
+}
+button {
+    padding: 8px 12px;
+    background: #4da3ff;
+    border: none;
+    cursor: pointer;
+}
+pre {
+    margin-top: 20px;
+    background: #111;
+    padding: 20px;
+}

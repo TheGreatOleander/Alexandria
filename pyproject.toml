@@ -1,0 +1,24 @@
+[project]
+name = "alexandria-temporal-kernel"
+version = "9.0.0"
+description = "Deterministic, auditable temporal kernel — Canonicalization Field"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+keywords = ["temporal", "kernel", "event-sourcing", "canonicalization", "constraints"]
+
+[project.scripts]
+alexandria = "alexandria.cli:main"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.backends.legacy:build"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["alexandria*"]

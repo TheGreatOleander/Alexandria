@@ -1,0 +1,17 @@
+<svg width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+<rect x="10" y="80" width="120" height="40" stroke="#4da3ff" fill="none"/>
+<text x="25" y="105" fill="#e6edf3">Input State</text>
+
+<rect x="170" y="80" width="120" height="40" stroke="#4da3ff" fill="none"/>
+<text x="185" y="105" fill="#e6edf3">Policy</text>
+
+<rect x="330" y="80" width="140" height="40" stroke="#4da3ff" fill="none"/>
+<text x="345" y="105" fill="#e6edf3">Invariant Engine</text>
+
+<rect x="520" y="80" width="120" height="40" stroke="#4da3ff" fill="none"/>
+<text x="540" y="105" fill="#e6edf3">Solver</text>
+
+<line x1="130" y1="100" x2="170" y2="100" stroke="#4da3ff"/>
+<line x1="290" y1="100" x2="330" y2="100" stroke="#4da3ff"/>
+<line x1="470" y1="100" x2="520" y2="100" stroke="#4da3ff"/>
+</svg>

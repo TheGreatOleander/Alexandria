@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Verify Chain</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>Integrity Verification</h1>
+<button onclick="check()">Verify Chain</button>
+<pre id="output"></pre>
+
+<script>
+async function check() {
+    const res = await fetch('/api/verify');
+    const data = await res.json();
+    document.getElementById('output').textContent =
+        JSON.stringify(data, null, 2);
+}
+</script>
+</body>
+</html>

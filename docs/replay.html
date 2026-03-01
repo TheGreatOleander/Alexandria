@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Replay Demo</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+<h1>Replay Demo</h1>
+<button onclick="loadReplay()">Load Replay</button>
+<pre id="output"></pre>
+
+<script>
+async function loadReplay() {
+    const res = await fetch('/api/replay');
+    const data = await res.json();
+    document.getElementById('output').textContent = JSON.stringify(data, null, 2);
+}
+</script>
+</div>
+</body>
+</html>
