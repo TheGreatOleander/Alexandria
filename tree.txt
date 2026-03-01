@@ -1,0 +1,59 @@
+.
+├── Alexandria_Temporal_Kernel.zip
+├── BUILDER_WARNING.txt
+├── CHANGELOG.md
+├── CITATION.cff
+├── CONTRIBUTING.md
+├── DOCTRINE.md
+├── LICENSE
+├── MANIFESTO.md
+├── NON_GOALS.md
+├── PHILOSOPHY_LOCK.json
+├── README.md
+├── README_ADDENDUM.md
+├── alexandria
+│   ├── __init__.py
+│   ├── cli.py
+│   ├── doctrine.py
+│   ├── domains.py
+│   ├── exceptions.py
+│   ├── invariants.py
+│   ├── kernel.py
+│   ├── persistence.py
+│   ├── policies.py
+│   ├── provenance.py
+│   ├── reconciler.py
+│   ├── relations.py
+│   ├── rules.py
+│   ├── schema.py
+│   └── solver.py
+├── api
+│   ├── app.py
+│   ├── hashchain.py
+│   ├── routes.py
+│   └── schemas.py
+├── docs
+│   ├── ARCHITECTURE.md
+│   ├── INVARIANTS.md
+│   ├── LEDGER.md
+│   ├── PURPOSE.md
+│   ├── REPLAY.md
+│   ├── SPEC.md
+│   ├── TRUST_DOMAINS.md
+│   ├── diagram.svg
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── openapi.json
+│   ├── replay.html
+│   ├── styles.css
+│   └── verify.html
+├── examples
+│   └── kernel_integration_example.py
+├── images
+│   └── Alexandria.jpg
+├── pyproject.toml
+├── tests
+│   └── test_kernel.py
+└── tree.txt
+
+7 directories, 50 files
