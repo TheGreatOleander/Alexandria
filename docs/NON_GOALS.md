@@ -1,0 +1,1 @@
+# NON-GOALS\nNo embedded AI dependency inside kernel.

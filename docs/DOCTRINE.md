@@ -1,0 +1,1 @@
+# DOCTRINE\nKernel authority is absolute.

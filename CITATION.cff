@@ -1,6 +1,9 @@
-
 cff-version: 1.2.0
-title: Alexandria Temporal Kernel
-version: 0.4.0
-date-released: 2026-03-01
-message: "If you use this software, please cite it."
+title: Alexandria
+message: "If you use Alexandria in research or derivative work, please cite it."
+type: software
+authors:
+  - family-names: Stambaugh
+    given-names: James
+version: 0.1.0
+date-released: 2026-03-02

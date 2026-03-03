@@ -1,0 +1,1 @@
+# GENERATOR INTERFACE\nMust return valid Hypothesis.

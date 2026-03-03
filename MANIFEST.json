@@ -1,0 +1,17 @@
+{
+  "repository_type": "constitutional_kernel",
+  "root_allowed_files": [
+    "ROOT_TRUTH_LAYER.md",
+    "README.md",
+    "VERSION",
+    "MANIFEST.json"
+  ],
+  "versioning_policy": "semantic_constitutional",
+  "constitution_location": "/ROOT_TRUTH_LAYER.md",
+  "schema_location": "/kernel/schema/",
+  "governance_location": "/governance/",
+  "ontology_location": "/ontology/",
+  "serialization_location": "/serialization/",
+  "integration_location": "/integration/",
+  "violation_policy": "halt_on_structural_drift"
+}
